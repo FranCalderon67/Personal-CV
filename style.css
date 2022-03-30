@@ -1,0 +1,76 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  background-color: orangered;
+  height: 200px;
+}
+.name {
+  color: white;
+  font-size: 45px;
+  margin-top: 1rem;
+  margin-left: 12rem;
+}
+
+.description {
+  color: rgb(6, 42, 109);
+  font-size: 30px;
+  margin-top: 3rem;
+  margin-left: 12rem;
+}
+
+.flexDisplay {
+  display: flex;
+  flex-direction: row;
+}
+
+.backBlue {
+  background-color: rgb(6, 42, 109);
+  width: 400px;
+  height: 100%;
+}
+
+.list {
+  color: white;
+  margin-top: 1rem;
+  font-size: 17px;
+}
+
+.listFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+.listItem {
+  margin-top: 0.7rem;
+  margin-left: 1.5rem;
+}
+
+.listTitle {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  color: orangered;
+  font-size: 20px;
+}
+
+.tecImg {
+  height: 30px;
+  width: 30px;
+}
+
+.title {
+  color: rgb(6, 42, 109);
+  margin-left: 1.5rem;
+}
+
+.line {
+  border-top: solid 3px orangered;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
